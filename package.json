@@ -1,0 +1,10 @@
+{
+  "name": "mongodb-scenario-a1-inventory-update",
+  "version": "1.0.0",
+  "description": "MongoDB Scenario A1: Online Store Inventory Update",
+  "scripts": {
+    "seed": "mongosh --file seed.js",
+    "start": "mongosh --file solution.js"
+  },
+  "license": "MIT"
+}
