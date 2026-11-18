@@ -1,0 +1,7 @@
+Task 1: Change a price with $set -> matchedCount: 1, modifiedCount: 1 (Keyboard price: 1400)
+Task 2: Increase stock with $inc -> matchedCount: 1, modifiedCount: 1 (Wireless Mouse stock: 75)
+Task 3: Remove obsolete field with $unset -> matchedCount: 8, modifiedCount: 2
+Task 4: Replace whole document -> matchedCount: 1, modifiedCount: 1 (_id: 3 -> USB-C Cable, price: 350)
+Task 5: Delete single document -> deletedCount: 1 (Old Floppy Drive)
+Task 6: Delete multiple documents -> deletedCount: 2 (Remaining documents: 5)
+Task 7: Aggregation -> [{ category: 'Accessories', totalStock: 105, avgPrice: 1100 }, { category: 'Computers', totalStock: 25, avgPrice: 33500 }]
